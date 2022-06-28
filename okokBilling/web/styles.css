@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+*,*:focus,*:hover{
+    outline:none;
+}
+
+body {
+	font-family: 'DM Mono', monospace;
+	background: none;
+}
+
+textarea {
+	font-family: 'DM Mono', monospace;
+	font-weight: 500 !important;
+}
+
+/* START GENERAL CARD RELATED CSS */
+
+.card {
+	border: none;
+	border-radius: 20px;
+	background-color: transparent;
+}
+
+.card-header {
+	border-bottom: none !important;
+}
+
+.card-title {
+	font-weight: 600;
+}
+
+.card-body {
+	background-color: #ffffff;
+	color: rgba(110, 113, 121, 1);
+	font-size: 15px;
+	font-weight: 500;
+	border-radius: 20px;
+}
+
+.menutitle {
+	color: #2f3037;
+	font-weight: 600;
+	font-size: 28px;
+}
+
+/* END GENERAL CARD RELATED CSS */
+
+/* START MAIN MENU */
+
+.mainmenu {
+	display: none;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainmenu-card {
+	width: 500px !important;
+	border: none;
+	box-shadow: 0px 0px 5px 0px rgba(10, 10, 10, 0.3);
+	border-radius: 20px;
+	background-color: transparent;
+}
+
+.mainmenu-subcard {
+	transition: 0.3s;
+}
+
+.mainmenu-subcard:hover {
+	transition: 0.3s;
+	background-color: #1f5eff !important;
+	color: #eeeff3 !important;
+	cursor: pointer;
+}
+
+/* END MAIN MENU */
+
+/* START PAID INVOICE */
+
+.paidinvoice {
+	display: none;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.paidinvoice-card {
+	width: 500px !important;
+	border: none;
+	box-shadow: 0px 0px 5px 0px rgba(10, 10, 10, 0.3);
+	border-radius: 20px;
+	background-color: transparent;
+}
+
+/* END PAID INVOICE */
+
+/* START UNPAID INVOICE */
+
+.unpaidinvoice {
+	display: none;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.unpaidinvoice-card {
+	width: 500px !important;
+	border: none;
+	box-shadow: 0px 0px 5px 0px rgba(10, 10, 10, 0.3);
+	border-radius: 20px;
+	background-color: transparent;
+}
+
+/* END PAID INVOICE */
+
+/* START SEND INVOICE */
+
+.sendinvoice {
+	display: none;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sendinvoice-card {
+	width: 500px !important;
+	border: none;
+	box-shadow: 0px 0px 5px 0px rgba(10, 10, 10, 0.3);
+	border-radius: 20px;
+	background-color: transparent;
+}
+
+/* END SEND INVOICE */
+
+/* START MY INVOICES */
+
+.myinvoices {
+	display: none;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.myinvoices-card {
+	width: 1000px !important;
+	border: none;
+	box-shadow: 0px 0px 5px 0px rgba(10, 10, 10, 0.3);
+	border-radius: 20px;
+	background-color: transparent;
+}
+
+/* END MY INVOICES */
+
+/* START SOCIETY INVOICES */
+
+.societyinvoices {
+	display: none;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.societyinvoices-card {
+	width: 1000px !important;
+	border: none;
+	box-shadow: 0px 0px 5px 0px rgba(10, 10, 10, 0.3);
+	border-radius: 20px;
+	background-color: transparent;
+}
+
+/* END SOCIETY INVOICES */
+
+/* START BUTTONS */
+
+.btn {
+	font-weight: 500;
+	font-size: 18px;
+	padding: 13px 17px;
+	border: none;
+	-webkit-border-radius: 2px;
+	-webkit-background-clip: padding-box;
+	-moz-border-radius: 2px;
+	-moz-background-clip: padding;
+	border-radius: 2px;
+	background-clip: padding-box;
+	transition: color 0.2s linear, background-color 0.2s linear;
+	letter-spacing: 0.2px;
+}
+
+.btn.btn-blue {
+	background-color: #1f5eff;
+	color: #fff;
+	font-size: 15px;
+}
+
+.btn.btn-blue.btn-border {
+	border-color: #1f5eff;
+	color: #1f5eff;
+}
+
+.btn.btn-blue.btn-3d {
+	box-shadow: inset 0 -2px 0 #0a4df9;
+}
+
+.btn.btn-blue:hover {
+	background-color: #0a4df9;
+}
+
+.btn.btn-red {
+	background-color: #f52847;
+	color: #fff;
+	font-size: 15px;
+}
+
+.btn.btn-red.btn-border {
+	border-color: #f52847;
+	color: #f52847;
+}
+
+.btn.btn-red.btn-3d {
+	box-shadow: inset 0 -2px 0 #d61e3a;
+}
+
+.btn.btn-red:hover {
+	background-color: #d61e3a;
+}
+
+.btn:focus {
+	box-shadow: none;
+}
+
+.btn-close {
+	background-color: #fff;
+	border-radius: 5px;
+	opacity: .75;
+	position: absolute; 
+	right: 20px; 
+	top: 20px;
+}
+
+.btn-close:hover {
+	opacity: 1;
+}
+
+.btn-close:focus {
+	box-shadow: none;
+}
+
+.btn.btn-bluesociety {
+	background-color: #1f5eff;
+	color: #e6e6e6;
+	font-size: 15px;
+}
+
+.btn.btn-bluesociety.btn-border {
+	border-color: #1f5eff;
+	color: #1f5eff;
+}
+
+.btn.btn-bluesociety.btn-3d {
+	box-shadow: inset 0 -2px 0 #0a4df9;
+}
+
+.btn.btn-bluesociety:hover {
+	background-color: #0a4df9;
+	color: #e6e6e6;
+}
+
+/* END BUTTONS */
+
+/* START INPUTS AND OTHERS */
+
+input {
+	border-radius: 10px !important;
+	height: 53px;
+	background-color: #eeeff3 !important;
+	border: none !important;
+	font-weight: 500 !important;
+}
+
+input:focus {
+	box-shadow: none !important;
+	color: #212529;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  	opacity: 0;
+}
+
+.input-group-text {
+	background-color: #eeeff3 !important;
+	border: none;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-weight: 500;
+}
+
+.form-control {
+    background-color: #eeeff3;
+}
+
+textarea {
+    resize: none;
+    border: none !important;
+}
+
+textarea:focus {
+	box-shadow: none !important;
+	border: none !important;
+}
+
+tbody tr:hover {
+	background-color: #eeeff3;
+}
+
+.dataTable-info {
+	display: none;
+}
+
+/* END INPUTS AND OTHERS */
+
+/* START BADGES */
+
+.badge {
+	border-radius: 10px;
+}
+
+.bg-success {
+	background-color: #ddfbdd !important;
+	color: #5d9b5f !important;
+}
+
+.bg-info {
+	background-color: #dde9fc !important;
+	color: #45518a !important;
+}
+
+.bg-danger {
+	background-color: #fbdde0 !important;
+	color: #9a5052 !important;
+}
+
+.bg-secondary {
+	background-color: rgba(100, 100, 100, 0.25) !important;
+	color: #5a5a5a !important;
+}
+
+/* END BADGES */
+
+/* START MYINVOICES MODAL */
+
+.myinvoices_modal-content {
+	width: 500px !important;
+	border: none;
+	box-shadow: 0px 0px 5px 0px rgba(10, 10, 10, 0.3);
+	border-radius: 20px !important;
+}
+
+.modal-body {
+	background-color: #ffffff;
+	color: rgba(110, 113, 121, 1);
+	font-size: 15px;
+	font-weight: 500;
+	border-radius: 20px !important;
+}
+
+/* END MYINVOICES MODAL */

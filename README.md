@@ -1,3 +1,9 @@
+![](https://img001.prntscr.com/file/img001/WxnYsnWlSMeAlikjRgj1xQ.png)
+![](https://img001.prntscr.com/file/img001/gR2d0R7OS16JzwdnmDcdeA.png)
+![](https://img001.prntscr.com/file/img001/eqB64YYxTaScxXpwr9zOug.png)
+![](https://img001.prntscr.com/file/img001/FH9Eu4v2RLiFRwRHieymFQ.png)
+
+
 Hi, thank you for buying my script, I'm very grateful! LOL
 
 If you need help contact me on discord: okok#3488
